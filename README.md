@@ -51,7 +51,7 @@ The dataset is not included in this repository due to size and licensing constra
 | Model | Validation Accuracy |
 |------|---------------------|
 | ResNet50 | **89%** |
-| MobileNetV2 | **85** |
+| MobileNetV2 | **85%** |
 | EfficientNet-B4 | **93%** |
 
 EfficientNet-B4 demonstrated superior performance and was selected as the final model.
