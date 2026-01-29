@@ -1,2 +1,91 @@
-# Butterfly-species-classification
-A deep learning project for classifying 75 butterfly species using EfficientNet-B4 and PyTorch, achieving 93% validation accuracy with class-weighted loss and data augmentation.
+# 🦋 Butterfly Species Classification
+
+Multi-class butterfly species classification using deep learning. Built with PyTorch and EfficientNet-B4, achieving 93% validation accuracy across 75 species with class imbalance handling and data augmentation.
+
+---
+
+## Overview
+
+This project develops a deep learning-based computer vision system to classify butterfly images into 75 species using over 5,000 labeled images.
+
+The dataset exhibits significant class imbalance, which introduces challenges for model generalization. To address this, class-weighted loss and extensive data augmentation were applied. Multiple convolutional neural network architectures were evaluated through transfer learning, with EfficientNet-B4 achieving the best performance.
+
+---
+
+## Dataset
+
+- 75 butterfly species  
+- 5,000+ labeled images  
+- Highly imbalanced class distribution  
+
+The dataset is not included in this repository due to size and licensing constraints.
+
+---
+
+## Methodology
+
+### Data Processing
+- Image resizing and normalization
+- Data augmentation:
+  - Random horizontal flip
+  - Random crop
+  - Color jitter
+
+### Model Training
+- Transfer learning from pretrained CNN models
+- Class-weighted Cross Entropy Loss to mitigate class imbalance
+- Architecture comparison:
+  - ResNet50
+  - MobileNetV2
+  - EfficientNet-B4
+
+### Optimization
+- Adam optimizer
+- Learning rate scheduling
+- Early stopping
+
+---
+
+## Results
+
+| Model | Validation Accuracy |
+|------|---------------------|
+| ResNet50 | -- |
+| MobileNetV2 | -- |
+| EfficientNet-B4 | **93%** |
+
+EfficientNet-B4 demonstrated superior performance and was selected as the final model.
+
+---
+
+## Training Curves
+
+*(Insert training and validation accuracy/loss plots here)*
+
+---
+
+## Confusion Matrix
+
+*(Insert confusion matrix visualization here)*
+
+---
+
+## Sample Predictions
+
+*(Insert sample prediction images here)*
+
+---
+
+## Technologies
+
+- Python  
+- PyTorch  
+- EfficientNet-B4  
+- OpenCV  
+- NumPy  
+- Matplotlib  
+
+---
+
+## Project Structure
+
