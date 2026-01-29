@@ -50,29 +50,11 @@ The dataset is not included in this repository due to size and licensing constra
 
 | Model | Validation Accuracy |
 |------|---------------------|
-| ResNet50 | -- |
-| MobileNetV2 | -- |
+| ResNet50 | **89%** |
+| MobileNetV2 | **85** |
 | EfficientNet-B4 | **93%** |
 
 EfficientNet-B4 demonstrated superior performance and was selected as the final model.
-
----
-
-## Training Curves
-
-*(Insert training and validation accuracy/loss plots here)*
-
----
-
-## Confusion Matrix
-
-*(Insert confusion matrix visualization here)*
-
----
-
-## Sample Predictions
-
-*(Insert sample prediction images here)*
 
 ---
 
@@ -87,5 +69,4 @@ EfficientNet-B4 demonstrated superior performance and was selected as the final 
 
 ---
 
-## Project Structure
 
